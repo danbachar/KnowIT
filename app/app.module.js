@@ -12,13 +12,14 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var forms_1 = require("@angular/forms");
-var ng2_bootstrap_1 = require('ng2-bootstrap/ng2-bootstrap');
+var angular2_modal_1 = require("angular2-modal/angular2-modal");
+var bootstrap_1 = require("angular2-modal/plugins/bootstrap");
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, ng2_bootstrap_1.Ng2BootstrapModule],
+            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, angular2_modal_1.ModalModule.forRoot(), bootstrap_1.BootstrapModalModule],
             declarations: [app_component_1.AppComponent],
             providers: [],
             bootstrap: [app_component_1.AppComponent]

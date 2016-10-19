@@ -1,26 +1,26 @@
-import { Component } from '@angular/core';
-import {AlertComponent } from 'ng2-bootstrap/ng2-bootstrap';
-import {NgModel} from '@angular/forms';
+import { Component, ViewContainerRef, ViewEncapsulation } from '@angular/core';
+import { Overlay } from 'angular2-modal';
+import { Modal } from 'angular2-modal/plugins/bootstrap';
 
 @Component({
     selector: 'my-app',
-    templateUrl: './app/app.component.html'
+    templateUrl: 'app.component.html',
+
 })
 export class AppComponent {
-  public dt:Date = new Date();
-  private minDate:Date = null;
-  private events:Array<any>;
-  private tomorrow:Date;
-  private afterTomorrow:Date;
-  private formats:Array<string> = ['DD-MM-YYYY', 'YYYY/MM/DD', 'DD.MM.YYYY', 'shortDate'];
-  private format = this.formats[0];
-  private dateOptions:any = {
-    formatYear: 'YY',
-    startingDay: 1
+  constructor(overlay: Overlay, vcRef: ViewContainerRef, public modal: Modal) {
+    overlay.defaultViewContainer = vcRef;
   };
-  private opened:boolean = false;
 
-  public getDate():number {
-    return this.dt && this.dt.getTime() || new Date().getTime();
+  onClick() {
+    this.modal.alert()
+      .size('sm')
+      .isBlocking(false)
+      .showClose(true)
+      .keyboard(27)
+      .title('Hello World')
+      .body('<div class=\"row\"><input placeholder="שם" type="text" style="width:100%" /></div><div class=\"col-xs-4 \"> <input placeholder=\"טלפון\" type=\"tel\" style=\"width:100%\" /></div></div><div class=\"row\"><div class=\"col-xs-2 col-xs-offset-4\"><div class=\"sendIcon\"></div></div></div>')
+      .bodyClass('container-fluid contactDetailsModal')
+      .open()
   }
 }

@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 import {FormsModule} from "@angular/forms";
-import { Ng2BootstrapModule } from 'ng2-bootstrap/ng2-bootstrap';
+import {ModalModule} from "angular2-modal";
+import {BootstrapModalModule} from "angular2-modal/plugins/bootstrap";
 
 @NgModule({
-  imports: [ BrowserModule, FormsModule, Ng2BootstrapModule ],
-  declarations: [ AppComponent ],
+  imports: [ BrowserModule, FormsModule, ModalModule.forRoot(), BootstrapModalModule],
+  declarations: [ AppComponent],
   providers: [],
   bootstrap: [ AppComponent ]
 })
