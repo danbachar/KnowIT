@@ -12,5 +12,10 @@
 
   <body>
     <my-app>Loading...</my-app>
+
+    <% if (webpackConfig.metadata.isDevServer && webpackConfig.metadata.HMR !== true) { %>
+    <!-- Webpack Dev Server reload -->
+    <script src="/webpack-dev-server.js"></script>
+    <% } %>
   </body>
 </html>
