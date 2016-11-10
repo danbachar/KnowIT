@@ -7,6 +7,9 @@ import '@angular/platform-browser-dynamic';
 import '@angular/core';
 import '@angular/common';
 import '@angular/forms';
+import '@angular/http';
 import '@angular/router';
-
-require('!!style!css!bootstrap/dist/css/bootstrap.css');
+import 'primeng/primeng';
+import 'rxjs/Rx';
+import '!!style!css!bootstrap/dist/css/bootstrap.css';
+import '!!style!css!style.css';

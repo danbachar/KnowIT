@@ -3,13 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 import {FormsModule} from "@angular/forms";
-import {ModalModule} from "angular2-modal";
-import {BootstrapModalModule} from "angular2-modal/plugins/bootstrap";
+import {HttpModule, JsonpModule} from "@angular/http";
+import "style.css";
+import { DialogModule }  from 'primeng/components/dialog/dialog'
 
 @NgModule({
-  imports: [ BrowserModule, FormsModule, ModalModule.forRoot(), BootstrapModalModule],
+  imports:      [ BrowserModule, HttpModule, FormsModule, JsonpModule, DialogModule],
   declarations: [ AppComponent],
-  providers: [],
-  bootstrap: [ AppComponent ]
+  bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
