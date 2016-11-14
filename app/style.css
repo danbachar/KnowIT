@@ -284,6 +284,8 @@ nav a.router-link-active {
 
 .sendIcon{
   background: url(./vendor/images/send.png) no-repeat;
+  -webkit-background-size:contain;
+  background-size:contain;
   width: 52px;
   height: 51px;
 }
@@ -328,4 +330,25 @@ nav a.router-link-active {
   left: -10px;
   width: 75%;
   margin-left: 4.5%;
+}
+
+.ui-dialog-rtl{
+  top: 420px!important;
+  width:80%;
+}
+
+.center{
+  text-align:center;
+}
+
+.mobileSendIcon{
+  background: url(./vendor/images/send.png) no-repeat;
+  -webkit-background-size:contain;
+  background-size:contain;
+  height: 30px;
+  margin-top:5px;
+}
+
+.appContainer{
+  overflow-x:hidden;
 }

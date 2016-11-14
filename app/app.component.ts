@@ -1,12 +1,14 @@
 import { Http } from '@angular/http';
 import { Component, OnInit } from '@angular/core';
-
+import '../node_modules/primeng/resources/themes/omega/theme.css';
+import '../node_modules/primeng/resources/primeng.min.css';
 declare var emailjs: any;
 
 @Component({
     selector: 'my-app',
     templateUrl: 'app.component.html',
-
+    styleUrls : ['../node_modules/primeng/resources/themes/omega/theme.css',
+                 '../node_modules/primeng/resources/primeng.min.css']
 })
 export class AppComponent implements OnInit {
   displayModal:boolean = false;
@@ -16,7 +18,8 @@ export class AppComponent implements OnInit {
   };
 
   ngOnInit() {
-      this.model = new ContactDetails();
+    emailjs.init("user_WtRJuW3sWwRrOmfPxG3vJ");
+    this.model = new ContactDetails();
   }
 
   closeModal(){

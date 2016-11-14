@@ -20,11 +20,10 @@ module.exports = {
   },
   resolve: {
     root: [
-      helpers.root('app'),
-      helpers.root('app/components')
+      helpers.root('app')
     ],
-    extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.json', '.css', '.html'],
-    modules: [helpers.root('app'), 'node_modules'],
+    extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.json', '.css', '.html', '.ico', '.svg'],
+    modules: [helpers.root('app'), helpers.root('node_modules')],
     modulesDirectories: ['node_modules']
   },
   module: {

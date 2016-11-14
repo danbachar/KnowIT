@@ -2,222 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3543d517-11d8-47b6-b318-37d27a00c448" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/vendor/fonts/font-awesome.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app.module.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/angular2-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/angular2-modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/angular2-modal.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/angular2-modal.module.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/angular2-modal.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/angular2-modal.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/base-dynamic-component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/base-dynamic-component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/base-dynamic-component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/css-backdrop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/css-backdrop.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/css-backdrop.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/css-dialog-container.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/css-dialog-container.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/css-dialog-container.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/swap-component.directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/swap-component.directive.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/components/swap-component.directive.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/createComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/createComponent.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/createComponent.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/fluent-assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/fluent-assign.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/fluent-assign.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/utils.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/framework/utils.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/dialog-ref-stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/dialog-ref-stack.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/dialog-ref-stack.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/dialog-ref.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/dialog-ref.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/dialog-ref.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/errors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/errors.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/errors.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/modal-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/modal-context.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/modal-context.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/modal-open-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/modal-open-context.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/modal-open-context.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/overlay-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/overlay-context.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/overlay-context.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/tokens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/tokens.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/tokens.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/vc-ref-store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/vc-ref-store.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/models/vc-ref-store.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.directives.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.directives.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.service.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/overlay/overlay.service.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/bootstrap.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/bootstrap.module.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/bootstrap.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/message-modal.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/message-modal.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/message-modal.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-container.component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-container.component.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-container.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-container.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-container.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-container.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-context.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal-context.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/modal.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/message-modal-preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/message-modal-preset.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/message-modal-preset.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/one-button-preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/one-button-preset.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/one-button-preset.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/two-button-preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/two-button-preset.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/presets/two-button-preset.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/bootstrap/rollup.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/js-native-modal-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/js-native-modal-renderer.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/js-native-modal-renderer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/js-native.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/js-native.module.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/js-native.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/modal-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/modal-context.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/modal-context.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/modal.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/presets/js-native-preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/presets/js-native-preset.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/presets/js-native-preset.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/js-native/rollup.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/dialog-form-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/dialog-form-modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/dialog-form-modal.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/modal-context.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/modal-context.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/modal-context.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/modal.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/presets/dialog-preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/presets/dialog-preset.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/presets/dialog-preset.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/presets/dropin-preset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/presets/dropin-preset.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/presets/dropin-preset.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/rollup.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/vex.module.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/vex.module.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/plugins/vex/vex.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/dom-modal-renderer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/dom-modal-renderer.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/dom-modal-renderer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/index.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/index.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/modal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/modal.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/outside-event-plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/outside-event-plugin.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/components/angular2-modal/providers/outside-event-plugin.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/main.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/modal.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/polyfills.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/vendor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/vendor.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/vendor/images/logoText.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/vendor/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/clean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/relative-imports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/release.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulp/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web.config" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.deployment" afterPath="$PROJECT_DIR$/.deployment" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/vendor/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/vendor/images/favicon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/043124c3cbef4f39eb5b49d8d59dd0f0.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/0cf9edbe96d1fe953a2eff21ed897aad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/11544c36c3b76127e8d84e894b4f1230.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/129cae53547da9ec48fad2595c527df1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/211822cfb9daaefce466d6f54d1dfd4c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/23fb62427bc56d9fc737ad5a6e928949.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/27a6a1f1070e624518060e9dc8fa9e53.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/2b4308b1fcbbda1fa8a5f87e24dcae6b.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/40d3661023e3c228f9a4f41a1c2c7e51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/422970365065903784b3b42215bd7bb4.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/423756c08d0330006ab46456a792f99e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/448c34a56d699c29117adc64c43affeb.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/89889688147bd7575d6327160d64e760.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/93ee525cfd4e5b2abcbb66a237523b43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/9c43082fee47756432e18eb95ada9915.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/9e09db10e6cc6ea71871fc6165320425.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/a624da0a7d917dce80f368f2052b1bea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/ac585b0041e22ad0ee2198ace82b94a4.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/bd85ffea5bd379a2cc22391121cdad1f.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/ce6783b1d08eced206e71588a2f183f0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/d53008a943619563e1779b4c7f56cf49.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/dce87f313fe1c61066d72095a7fd4bcb.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/e18bbf611f2a2e43afc071aa2f4e1512.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/eb839c5cdb73d6d03628ad2ae207dacd.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/ecd369ae80277b0e5bef650c34cdf577.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/f4769f9bdb7466be65088239c12046d1.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/fa2772327f55d8198301fdb8bcfc8158.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/fce9cab75f7d497781d7df9a8d91c316.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/main.67fc28e7d0bdbe815dfa.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/main.67fc28e7d0bdbe815dfa.bundle.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/main.ef191c5dbd543f86ab96.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/main.ef191c5dbd543f86ab96.bundle.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/polyfills.562286c6044a0599f5d9.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/polyfills.562286c6044a0599f5d9.bundle.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/vendor.93e5a6ffa8c63abf40f1.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/site/vendor.93e5a6ffa8c63abf40f1.bundle.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.html" afterPath="$PROJECT_DIR$/app/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.ts" afterPath="$PROJECT_DIR$/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.ts" afterPath="$PROJECT_DIR$/app/main.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/polyfills.ts" afterPath="$PROJECT_DIR$/app/polyfills.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor.ts" afterPath="$PROJECT_DIR$/app/vendor.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/README.md" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/bower.json" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.css" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.css.map" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.min.css" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.min.css.map" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/css/materialdesignicons.min.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/fonts/materialdesignicons-webfont.svg" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/fonts/materialdesignicons-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/license.md" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/license.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/package.json" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/preview.html" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/preview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_core.scss" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_core.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_extras.scss" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_extras.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_functions.scss" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_functions.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_icons.scss" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_icons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_path.scss" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_path.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_variables.scss" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/materialdesignicons.scss" afterPath="$PROJECT_DIR$/app/vendor/fonts/MaterialDesign-Webfont/scss/materialdesignicons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style.css" afterPath="$PROJECT_DIR$/app/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vendor/images/logoText.svg" afterPath="$PROJECT_DIR$/app/vendor/images/logoText.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.common.js" afterPath="$PROJECT_DIR$/config/webpack.common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/webpack.prod.js" afterPath="$PROJECT_DIR$/config/webpack.prod.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tslint.json" afterPath="$PROJECT_DIR$/tslint.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings.json" afterPath="$PROJECT_DIR$/typings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/core-js/index.d.ts" afterPath="$PROJECT_DIR$/typings/globals/core-js/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/core-js/typings.json" afterPath="$PROJECT_DIR$/typings/globals/core-js/typings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/node/index.d.ts" afterPath="$PROJECT_DIR$/typings/globals/node/index.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/globals/node/typings.json" afterPath="$PROJECT_DIR$/typings/globals/node/typings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/index.d.ts" afterPath="$PROJECT_DIR$/typings/index.d.ts" />
     </list>
     <ignored path="quickstart-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -243,65 +77,11 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -309,8 +89,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -319,30 +99,44 @@
       <file leaf-file-name="webpack.common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/webpack.common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="731">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="polyfills.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/polyfills.ts">
+      <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/webpack.prod.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding>
-                <element signature="e#896#916#0" expanded="true" />
+                <element signature="e#1664#1737#0" expanded="false" />
+                <element signature="e#1753#1972#0" expanded="false" />
+                <element signature="e#1982#2120#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vendor.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/vendor.ts">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="119">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5984">
+              <caret line="352" column="1" selection-start-line="352" selection-start-column="1" selection-end-line="352" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -360,19 +154,20 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/app/vendor/styles.css" />
         <option value="$PROJECT_DIR$/config/webpack.dev.js" />
         <option value="$PROJECT_DIR$/app/main.ts" />
-        <option value="$PROJECT_DIR$/app/style.css" />
         <option value="$PROJECT_DIR$/app/polyfills.ts" />
         <option value="$PROJECT_DIR$/app/vendor.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/app/app.component.html" />
+        <option value="$PROJECT_DIR$/config/webpack.common.js" />
+        <option value="$PROJECT_DIR$/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/app/style.css" />
         <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/config/webpack.common.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/app/app.component.html" />
+        <option value="$PROJECT_DIR$/config/webpack.prod.js" />
       </list>
     </option>
   </component>
@@ -418,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,6 +242,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KnowIT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -453,7 +263,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,17 +271,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="package&#9;FILE&#9;file://C:/git/KnowIT/package.json&#10;pack&#9;FILE&#9;file://C:/git/KnowIT/webpack.config.js&#10;webpac&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.common.js&#10;app.co&#9;FILE&#9;file://C:/git/KnowIT/app/app.component.html&#10;webpack.&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.common.js&#10;webpack.confi&#9;FILE&#9;file://C:/git/KnowIT/webpack.config.js&#10;main.t&#9;FILE&#9;file://C:/git/KnowIT/app/main.ts&#10;app.mo&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;vendo&#9;FILE&#9;file://C:/git/KnowIT/app/vendor.ts&#10;polyfi&#9;FILE&#9;file://C:/git/KnowIT/app/polyfills.ts&#10;module&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;vendor&#9;FILE&#9;file://C:/git/KnowIT/app/vendor.ts&#10;polyf&#9;FILE&#9;file://C:/git/KnowIT/app/polyfills.ts&#10;webpack&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.common.js&#10;tsconfig.&#9;FILE&#9;file://C:/git/KnowIT/tsconfig.json&#10;tsconfig&#9;FILE&#9;file://C:/git/KnowIT/tsconfig.json&#10;app.component.ts&#9;FILE&#9;file://C:/git/KnowIT/app/app.component.ts&#10;app.compon&#9;FILE&#9;file://C:/git/KnowIT/app/app.component.ts&#10;app.modu&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;.css&#9;FILE&#9;file://C:/git/KnowIT/app/style.css&#10;webp&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.prod.js&#10;app.m&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;main.ts&#9;FILE&#9;file://C:/git/KnowIT/app/main.ts&#10;index.&#9;FILE&#9;file://C:/git/KnowIT/app/index.html&#10;index.h&#9;FILE&#9;file://C:/git/KnowIT/app/index.html&#10;chunk.js&#9;FILE&#9;file://C:/git/KnowIT/node_modules/webpack/lib/Chunk.js&#10;package.js&#9;FILE&#9;file://C:/git/KnowIT/package.json&#10;index.ht&#9;FILE&#9;file://C:/git/KnowIT/app/index.html&#10;prod.js&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.prod.js&#10;index.html&#9;FILE&#9;file://C:/Users/Dan/Desktop/quickstart-master/index.html&#10;syste&#9;FILE&#9;file://C:/Users/Dan/Desktop/quickstart-master/systemjs.config.js&#10;app.module&#9;FILE&#9;file://C:/Users/Dan/Desktop/quickstart-master/app/app.module.ts" />
+    <property name="SearchEverywhereHistoryKey" value="style.&#9;FILE&#9;file://C:/git/KnowIT/app/style.css&#10;primeng.min&#9;FILE&#9;file://C:/git/KnowIT/node_modules/primeng/resources/primeng.min.css&#10;.prod&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.prod.js&#10;webpack&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.common.js&#10;module&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;index.&#9;FILE&#9;file://C:/git/KnowIT/app/index.html&#10;style&#9;FILE&#9;file://C:/git/KnowIT/app/style.css&#10;DialogModul&#9;null&#9;null&#10;index.h&#9;FILE&#9;file://C:/git/KnowIT/app/index.html&#10;package&#9;FILE&#9;file://C:/git/KnowIT/package.json&#10;pack&#9;FILE&#9;file://C:/git/KnowIT/webpack.config.js&#10;webpac&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.common.js&#10;app.co&#9;FILE&#9;file://C:/git/KnowIT/app/app.component.html&#10;webpack.&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.common.js&#10;webpack.confi&#9;FILE&#9;file://C:/git/KnowIT/webpack.config.js&#10;main.t&#9;FILE&#9;file://C:/git/KnowIT/app/main.ts&#10;app.mo&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;vendo&#9;FILE&#9;file://C:/git/KnowIT/app/vendor.ts&#10;polyfi&#9;FILE&#9;file://C:/git/KnowIT/app/polyfills.ts&#10;vendor&#9;FILE&#9;file://C:/git/KnowIT/app/vendor.ts&#10;polyf&#9;FILE&#9;file://C:/git/KnowIT/app/polyfills.ts&#10;tsconfig.&#9;FILE&#9;file://C:/git/KnowIT/tsconfig.json&#10;tsconfig&#9;FILE&#9;file://C:/git/KnowIT/tsconfig.json&#10;app.component.ts&#9;FILE&#9;file://C:/git/KnowIT/app/app.component.ts&#10;app.compon&#9;FILE&#9;file://C:/git/KnowIT/app/app.component.ts&#10;app.modu&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;.css&#9;FILE&#9;file://C:/git/KnowIT/app/style.css&#10;webp&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.prod.js&#10;app.m&#9;FILE&#9;file://C:/git/KnowIT/app/app.module.ts&#10;main.ts&#9;FILE&#9;file://C:/git/KnowIT/app/main.ts&#10;chunk.js&#9;FILE&#9;file://C:/git/KnowIT/node_modules/webpack/lib/Chunk.js&#10;package.js&#9;FILE&#9;file://C:/git/KnowIT/package.json&#10;index.ht&#9;FILE&#9;file://C:/git/KnowIT/app/index.html&#10;prod.js&#9;FILE&#9;file://C:/git/KnowIT/config/webpack.prod.js&#10;index.html&#9;FILE&#9;file://C:/Users/Dan/Desktop/quickstart-master/index.html&#10;syste&#9;FILE&#9;file://C:/Users/Dan/Desktop/quickstart-master/systemjs.config.js&#10;app.module&#9;FILE&#9;file://C:/Users/Dan/Desktop/quickstart-master/app/app.module.ts" />
     <property name="editor.config.accepted" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\KnowIT\app\vendor\scripts" />
       <recent name="C:\git\KnowIT\app" />
       <recent name="C:\Users\Dan\Desktop\quickstart-master\vendor\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\KnowIT\app" />
+      <recent name="C:\git\KnowIT\app\vendor" />
       <recent name="C:\git\KnowIT\app\vendor\fonts" />
     </key>
   </component>
@@ -502,6 +314,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -564,23 +382,29 @@
       <workItem from="1478587736360" duration="4890000" />
       <workItem from="1478601082966" duration="5040000" />
       <workItem from="1478777265346" duration="2334000" />
-      <workItem from="1478781327092" duration="1515000" />
+      <workItem from="1478781327092" duration="3270000" />
+      <workItem from="1478867203437" duration="4819000" />
+      <workItem from="1479034505493" duration="491000" />
+      <workItem from="1479036759878" duration="7643000" />
+      <workItem from="1479058341079" duration="4604000" />
+      <workItem from="1479115172412" duration="5844000" />
+      <workItem from="1479121549095" duration="584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60277000" />
+    <option name="totallyTimeSpent" value="86017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19912152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31230283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -610,74 +434,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/modal.component.html" />
-    <entry file="file://$PROJECT_DIR$/config/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3604">
-          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.js" />
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -689,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,19 +487,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.module.js" />
     <entry file="file://$PROJECT_DIR$/app/modal.component.html" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/metadata/ng_module.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webpack/lib/Chunk.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -770,25 +514,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@angular/http/src/http.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="250" column="27" selection-start-line="250" selection-start-column="27" selection-end-line="250" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,47 +535,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/metadata/directives.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7752">
-          <caret line="467" column="17" selection-start-line="467" selection-start-column="17" selection-end-line="467" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/email.min.js" />
-    <entry file="file://$PROJECT_DIR$/app/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="e#896#916#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/vendor.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="62" column="2" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/custom-typings.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vendor/images/favicon.svg" />
+    <entry file="file://$PROJECT_DIR$/app/vendor/images/favicon.png" />
+    <entry file="file://$PROJECT_DIR$/app/vendor/scripts/email.min.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/primeng/components/dialog/dialog.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -854,25 +578,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/vendor/fonts/font-awesome.min.css">
+    <entry file="file://$PROJECT_DIR$/dist/vendor.93e5a6ffa8c63abf40f1.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.common.js">
+    <entry file="file://$PROJECT_DIR$/app/primeng.min.css" />
+    <entry file="file://$PROJECT_DIR$/app/vendor/theme.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/metadata/ng_module.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="1598">
+          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -880,41 +609,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/vendor/fonts/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="3" column="174" selection-start-line="3" selection-start-column="174" selection-end-line="3" selection-end-column="174" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="229">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="127">
+          <caret line="190" column="6" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/metadata/directives.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="548" column="4" selection-start-line="548" selection-start-column="4" selection-end-line="548" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/primeng/resources/primeng.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="59278" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5984">
+          <caret line="352" column="1" selection-start-line="352" selection-start-column="1" selection-end-line="352" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="e#1664#1737#0" expanded="false" />
+            <element signature="e#1753#1972#0" expanded="false" />
+            <element signature="e#1982#2120#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

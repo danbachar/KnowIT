@@ -32,6 +32,6 @@
     "node_modules",
     "dist",
     "typings",
-    "app/email.min.js"
+    "app/vendor/scripts/email.min.js"
   ]
 }
