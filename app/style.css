@@ -225,7 +225,11 @@ nav a.router-link-active {
   font-family: Alef;
 }
 
+
+
 .bodyContainer {
+  color:black;
+  font-size:14px;
   background-repeat: no-repeat;;
   border: 10px black;
   height: 80px;
@@ -333,7 +337,7 @@ nav a.router-link-active {
 }
 
 .ui-dialog-rtl{
-  top: 420px!important;
+  top: 300px!important;
   width:80%;
 }
 
@@ -351,4 +355,41 @@ nav a.router-link-active {
 
 .appContainer{
   overflow-x:hidden;
+}
+
+.iconMarginTop{
+  margin-top:25px;
+}
+
+@media (max-width: 768px) {
+  body{
+    margin:0px;
+  }
+
+  .bodyContainer{
+    margin-top:20px;
+  }
+
+  #firstBodyContainer{
+    margin-top: 24px;
+  }
+
+  #thirdBodyContainer{
+    margin-top: -15px;
+  }
+
+  #lastBodyContainer{
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  .bodyContainer{
+    font-size:18px;
+  }
+
+  .keyboardIcon{
+    margin-top:10px;
+  }
 }

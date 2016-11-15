@@ -3,6 +3,8 @@ const helpers = require('./helpers');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 const HtmlElementsPlugin = require('./html-elements-plugin');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
 const METADATA = {
   title: 'KnowIT Online',
   baseUrl: '/',
@@ -50,13 +52,14 @@ module.exports = {
         loader: 'json-loader'
       },
       {
-        test: /\.css$/,
-        loaders: ['to-string-loader', 'css-loader']
+        test: /\.css$/, loader: ExtractTextPlugin.extract({
+        fallbackLoader: "style-loader",
+        loader: "css-loader"
+      })
       },
       {
         test: /\.html$/,
         loader: 'raw-loader',
-        exclude: [helpers.root('app/index.html')]
       },
       {
         test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
@@ -85,7 +88,8 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: 'app/index.html',
-      chunksSortMode: 'dependency'
+      chunksSortMode: 'dependency',
+      favicon: 'app/vendor/images/favicon.svg'
     }),
     new HtmlElementsPlugin({
       headTags: require('./head-config.common')
@@ -93,7 +97,8 @@ module.exports = {
     new webpack.ContextReplacementPlugin(
       /angular(\\|\/)core(\\|\/)(esm(\\|\/)src|src)(\\|\/)linker/,
       __dirname
-    )
+    ),
+    new ExtractTextPlugin("styles.css")
   ],
   node: {
     global: 'window',

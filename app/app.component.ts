@@ -1,18 +1,21 @@
 import { Http } from '@angular/http';
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import '../node_modules/primeng/resources/themes/omega/theme.css';
 import '../node_modules/primeng/resources/primeng.min.css';
+import 'vendor/fonts/font-awesome.min.css';
+import "style.css";
+
 declare var emailjs: any;
 
 @Component({
     selector: 'my-app',
     templateUrl: 'app.component.html',
-    styleUrls : ['../node_modules/primeng/resources/themes/omega/theme.css',
-                 '../node_modules/primeng/resources/primeng.min.css']
+
 })
 export class AppComponent implements OnInit {
   displayModal:boolean = false;
-  model: ContactDetails = null;
+  model: ContactDetails = {name: "", phoneNumber: ""};
+  errorsList: Error[] = [];
 
   constructor(private http: Http) {
   };
@@ -27,7 +30,14 @@ export class AppComponent implements OnInit {
   }
 
   registerDetails(contactModel: ContactDetails){
-    emailjs.send('gmail', 'template', {'name': contactModel.name, 'phone': contactModel.phoneNumber});
+    this.errorsList = [];
+    this.errorsList = this.validateDetails(contactModel);
+
+    if (this.isValidContactDetails(this.errorsList)) {
+      this.sendEmail(contactModel);
+      this.errorsList.push({fieldName:null, error: "הודעה נשלחה למנהלי האתר שייצרו קשר בקרוב"});
+      window.setTimeout(() => { this.closeModal()}, 2000);
+    }
     return false;
   }
 
@@ -35,12 +45,46 @@ export class AppComponent implements OnInit {
     this.displayModal = true;
   }
 
+  sendEmail(contactDetails : ContactDetails){
+    emailjs.send('gmail', 'template', {'name': contactDetails .name, 'phone': contactDetails .phoneNumber});
+    return false;
+  }
 
+  isValidContactDetails(errorsList : Error[]){
+    return errorsList.every(x => x.error == null);
+  }
+
+  validateDetails(details : ContactDetails) : Error[]{
+
+    this.errorsList.push({fieldName: "phoneNumber", error: (this.validatePhoneNumber(details.phoneNumber))});
+    this.errorsList.push({fieldName: "name",        error: this.validateName(details.name)});
+
+    return this.errorsList;
+  }
+
+  validatePhoneNumber(phoneNumber : string) : string{
+    if (phoneNumber == null)
+      return "מספר טלפון לא יכול להיות ריק";
+    return this.validateStringAgainstRegex(/^\d{9,10}$/, phoneNumber) ? 'טלפון חייב להכיל רק ספרות באורך 9-10 ספרות' : null;
+  }
+
+  validateName(name : string){
+    if (name == null)
+      return "שם לא יכול להיות ריק";
+    return this.validateStringAgainstRegex(/^[a-zA-Zא-ת]{2,10}$/, name) ? 'שם חייב להכיל אותיות באורך 2-10 תווים' : null;
+  }
+
+  validateStringAgainstRegex(pattern:RegExp, value : string){
+    return !pattern.test(value);
+  }
 }
-      // .body('<div class=\'row\'><input placeholder='שם' type='text' style='width:100%' /></div><div class=\'col-xs-4 \'> <input placeholder=\'טלפון\' type=\'tel\' style=\'width:100%\' /></div></div><div class=\'row\'><div class=\'col-xs-2 col-xs-offset-4\'><div class=\'sendIcon\'></div></div></div>')
-      //.bodyClass('container-fluid contactDetailsModal')
 
 export class ContactDetails{
   phoneNumber: string;
   name: string;
+}
+
+export class Error{
+  fieldName: string;
+  error: string;
 }
