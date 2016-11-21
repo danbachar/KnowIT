@@ -337,7 +337,7 @@ nav a.router-link-active {
 }
 
 .ui-dialog-rtl{
-  top: 300px!important;
+  top: 270px!important;
   width:80%;
 }
 
@@ -351,6 +351,7 @@ nav a.router-link-active {
   background-size:contain;
   height: 30px;
   margin-top:5px;
+  margin-left:145px;
 }
 
 .appContainer{
@@ -359,6 +360,15 @@ nav a.router-link-active {
 
 .iconMarginTop{
   margin-top:25px;
+}
+
+.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:103px;
+  width:100%;
+  background:lightsteelblue;
 }
 
 @media (max-width: 768px) {

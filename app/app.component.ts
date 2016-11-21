@@ -1,9 +1,5 @@
 import { Http } from '@angular/http';
 import {Component, OnInit} from '@angular/core';
-import '../node_modules/primeng/resources/themes/omega/theme.css';
-import '../node_modules/primeng/resources/primeng.min.css';
-import 'vendor/fonts/font-awesome.min.css';
-import "style.css";
 
 declare var emailjs: any;
 
