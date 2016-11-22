@@ -1,6 +1,6 @@
 <div class="container-fluid appContainer">
   <div class="row logo hidden-sm hidden-xs"></div>
-  <div class="row logoText visible-xs-block visible-sm-block col-xs-6 col-xs-offset-2" style="margin-top:5px"></div>
+  <div class="row logoText visible-xs-block visible-sm-block col-xs-6 col-xs-offset-3" style="margin-top:5px"></div>
   <div class="row logoFrame hidden-xs hidden-sm col-md-12">
     <div class="col-md-offset-9 col-md-2">
       <div class="col-md-4">
@@ -20,7 +20,7 @@
       </h2>
     </span>
   </div>
-  <div class="col-xs-11 col-xs-offset-1 visible-xs-block">
+  <div class="col-xs-8 col-xs-offset-2 visible-xs-block visible-sm-block">
     <span>
       <h4>
         <strong>
@@ -39,7 +39,7 @@
           <span class="visible-md-block visible-lg-block">
             גיבוי המידע מתבצע על שרתים וירטואליים מרוחקים
           </span>
-          <span class="visible-xs-block">
+          <span class="visible-xs-block visible-sm-block">
             גיבוי המידע מתבצע על שרתים וירטואליים
           </span>
           <span>
@@ -47,8 +47,8 @@
         </span>
         </p>
       </div>
-      <div class="col-xs-3 securityIcon visible-xs-block iconMarginTop"></div>
-      <div class="col-md-2 securityIcon visible-md-block visible-lg-block"></div>
+      <div class="col-xs-3 securityIcon icon visible-xs-block visible-sm-block"></div>
+      <div class="col-md-2 securityIcon icon visible-md-block visible-lg-block marginTop"></div>
     </div>
     <div id="firstBodyContainer" class="bodyContainer col-md-5 col-xs-12">
       <div class="col-md-10 col-xs-9">
@@ -62,8 +62,8 @@
           24 שעות ביממה וללא המתנה
         </div>
       </div>
-      <div class="visible-xs-block clockIcon col-xs-3" style="margin-top: 18px;"></div>
-      <div class="visible-md-block visible-lg-block clockIcon col-md-2 "></div>
+      <div class="visible-xs-block visible-sm-block clockIcon icon col-xs-3"></div>
+      <div class="visible-md-block clockIcon icon visible-lg-block col-md-2 marginTop"></div>
     </div>
   </div>
   <div class="col-md-12">
@@ -79,10 +79,10 @@
           פשוטה וקלה גם מרחוק
         </div>
       </div>
-      <div class="col-xs-3 globeButton visible-xs-block" style="margin-top: 10px;"></div>
-      <div class="col-md-2 globeButton visible-md-block visible-lg-block"></div>
+      <div class="col-xs-3 globeButton icon visible-xs-block visible-sm-block"></div>
+      <div class="col-md-2 globeButton icon visible-md-block visible-lg-block marginTop"></div>
     </div>
-    <div id="thirdBodyContainer" class="bodyContainer col-md-5 col-xs-12">
+    <div class="bodyContainer col-md-5 col-xs-12">
       <div class="col-md-10 col-xs-9">
         <strong>
           חסכון בעלויות כוח אדם
@@ -95,7 +95,7 @@
             וניהול של מערכות המידע והתשתיות בארגון
           </div>
         </div>
-        <div class="visible-xs-block">
+        <div class="visible-xs-block visible-sm-block">
           <div>
             אין צורך בהעסקת כוח אדם לניהול
           </div>
@@ -104,8 +104,8 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-3 visible-xs-block piggybankIcon iconMarginTop"></div>
-      <div class="col-md-2 visible-md-block visible-lg-block piggybankIcon"></div>
+      <div class="col-xs-3 piggybankIcon icon visible-xs-block visible-sm-block marginTop"></div>
+      <div class="col-md-2 piggybankIcon icon visible-md-block visible-lg-block"></div>
     </div>
   </div>
   <div class="col-md-12">
@@ -118,13 +118,13 @@
           שירותי הענן הינם שירותים גימישים וניתנים
         </div>
         <div>
-          להרחבה או צמצום של שירוצים לפי צרכי הלקוח
+          להרחבה או צמצום של שירותים לפי צרכי הלקוח
         </div>
       </div>
-      <div class="col-xs-3 visible-xs-block puzzleIcon iconMarginTop"></div>
-      <div class="col-md-2 puzzleIcon visible-md-block visible-lg-block"></div>
+      <div class="col-xs-3 puzzleIcon iconContainer visible-xs-block visible-sm-block iconMarginTop"></div>
+      <div class="col-md-2 puzzleIcon iconContainer visible-md-block visible-lg-block marginTop"></div>
     </div>
-    <div class="bodyContainer col-md-5 col-xs-12" style="margin-bottom: 64px;">
+    <div class="bodyContainer col-md-5 col-xs-12" id="lastIconContainer">
       <div class="col-md-10 col-xs-9">
         <strong>
           חסכון בעלויות חומרה
@@ -136,19 +136,14 @@
           ניידים במחירים הטובים ביותר
         </div>
       </div>
-      <div class="col-xs-3 visible-xs-block keyboardIcon iconMarginTop"></div>
-      <div class="col-md-2 visible-md-block visible-lg-block keyboardIcon"></div>
+      <div class="col-xs-3 keyboardIcon icon visible-xs-block visible-sm-block visible-sm-block"></div>
+      <div class="col-md-2 keyboardIcon icon visible-md-block visible-lg-block marginTop"></div>
     </div>
   </div>
   <div class="row col-md-9 col-md-offset-2 col-xs-12">
     <h2 class="visible-md-block visible-lg-block">
       להצטרפות לחודש ראשון חינם וללא התחייבות חייגו 073-2724073
     </h2>
-  </div>
-  <div class="row visible-xs-block visible-sm-block">
-    <div class="col-xs-2 col-xs-offset-3 mobileSendIcon visible-xs-block" (click)="openModal()">
-    </div>
-    <span style="font-size: 16px;" class="col-xs-6 col-xs-pull-1"> או השאירו פרטים</span>
   </div>
   <div class="row visible-md-block visible-lg-block">
     <div class="col-md-1 col-md-offset-2" style="margin-top:-11px">
@@ -172,30 +167,34 @@
     <span class="subtitle">...כי ענן זה לא בשמיים - KnowIT</span>
   </div>
 </div>
-<div class="footer visible-xs-block visible-md-block">
+<div class="visible-xs-block visible-sm-block visible-md-block" [ngClass]="{'footer': footerToDisplay==0,
+                                                                            'successFooter' : footerToDisplay==1,
+                                                                            'extendedFooter': footerToDisplay==2}">
   <div class="row">
     <div class="col-xs-10 col-xs-offset-1 center">
       <div>
-        להצטרפות לחודש ראשון חינם וללא התחייבות חייגו 073-2724073
-
+        להצטרפות לחודש ראשון חינם וללא התחייבות
+      </div>
+      <div>
+        חייגו 073-2724073
       </div>
     </div>
   </div>
-  <!--template bindings={}-->
-  <div col="row">
+  <div class="row">
     <div class="col-xs-6">
-      <input class="center col-xs-12 ng-untouched ng-pristine ng-valid" placeholder="שם" type="text">
+      <input class="center col-xs-12 " placeholder="שם" type="text" [(ngModel)]="model.name">
     </div>
     <div class="col-xs-6">
-      <input class="center col-xs-12 ng-untouched ng-pristine ng-valid" placeholder="טלפון" type="tel">
+      <input class="center col-xs-12 " placeholder="טלפון" type="tel" [(ngModel)]="model.phoneNumber">
     </div>
   </div>
-  <h4 class="visible-xs-block center col-xs-offset-1">
-
-
-  </h4>
+  <div class="row center" *ngFor="let message of messageList">
+    <div *ngIf="message != null" [ngClass]="{'red': !!message.fieldName, 'green': !message.fieldName}">
+      {{message.message}}
+    </div>
+  </div>
   <div class="row col-xs-9">
-    <div class="col-xs-2 col-xs-offset-8 mobileSendIcon"></div>
+    <div class="col-xs-2 col-xs-offset-8 col-xs-push-2 mobileSendIcon" (click)="registerDetails(model)"></div>
   </div>
 </div>
 

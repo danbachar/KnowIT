@@ -9,9 +9,9 @@ declare var emailjs: any;
 
 })
 export class AppComponent implements OnInit {
-  displayModal:boolean = false;
   model: ContactDetails = {name: "", phoneNumber: ""};
-  errorsList: Error[] = [];
+  messageList: Error[] = [];
+  footerToDisplay: number = 0;
 
   constructor(private http: Http) {
   };
@@ -21,41 +21,38 @@ export class AppComponent implements OnInit {
     this.model = new ContactDetails();
   }
 
-  closeModal(){
-    this.displayModal = false;
-  }
-
   registerDetails(contactModel: ContactDetails){
-    this.errorsList = [];
-    this.errorsList = this.validateDetails(contactModel);
+    this.messageList = [];
+    this.messageList = this.validateDetails(contactModel);
 
-    if (this.isValidContactDetails(this.errorsList)) {
+    if (this.isValidContactDetails(this.messageList)) {
       this.sendEmail(contactModel);
-      this.errorsList.push({fieldName:null, error: "הודעה נשלחה למנהלי האתר שייצרו קשר בקרוב"});
-      window.setTimeout(() => { this.closeModal()}, 2000);
+      this.messageList.push({fieldName:null, message: "הודעה נשלחה למנהלי האתר שייצרו קשר בקרוב"});
+      document.getElementById("lastIconContainer").style.marginBottom = "";
+      this.footerToDisplay = 1;
+    }
+    else{
+      this.footerToDisplay = 2;
+      document.getElementById("lastIconContainer").style.marginBottom = "130px";
     }
     return false;
   }
 
-  openModal(){
-    this.displayModal = true;
-  }
-
   sendEmail(contactDetails : ContactDetails){
-    emailjs.send('gmail', 'template', {'name': contactDetails .name, 'phone': contactDetails .phoneNumber});
+    emailjs.send('gmail', 'template', {'name': contactDetails.name, 'phone': contactDetails.phoneNumber});
     return false;
   }
 
   isValidContactDetails(errorsList : Error[]){
-    return errorsList.every(x => x.error == null);
+    return errorsList.every(x => x.message == null);
   }
 
   validateDetails(details : ContactDetails) : Error[]{
 
-    this.errorsList.push({fieldName: "phoneNumber", error: (this.validatePhoneNumber(details.phoneNumber))});
-    this.errorsList.push({fieldName: "name",        error: this.validateName(details.name)});
+    this.messageList.push({fieldName: "phoneNumber", message: this.validatePhoneNumber(details.phoneNumber)});
+    this.messageList.push({fieldName: "name",        message: this.validateName(details.name)});
 
-    return this.errorsList;
+    return this.messageList;
   }
 
   validatePhoneNumber(phoneNumber : string) : string{
@@ -82,5 +79,5 @@ export class ContactDetails{
 
 export class Error{
   fieldName: string;
-  error: string;
+  message: string;
 }

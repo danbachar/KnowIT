@@ -51,129 +51,12 @@ body {
   background-image: url(./vendor/images/background-line.png);
   background-size: cover;
 }
+
 body, input[text], button {
   color: #888;
   font-family: Cambria, Georgia;
 }
-a {
-  cursor: pointer;
-  cursor: hand;
-}
-button {
-  font-family: Arial;
-  background-color: #eee;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  cursor: hand;
-}
-button:hover {
-  background-color: #cfd8dc;
-}
-button:disabled {
-  background-color: #eee;
-  color: #aaa;
-  cursor: auto;
-}
 
-/* Navigation link styles */
-nav a {
-  padding: 5px 10px;
-  text-decoration: none;
-  margin-top: 10px;
-  display: inline-block;
-  background-color: #eee;
-  border-radius: 4px;
-}
-nav a:visited, a:link {
-  color: #607D8B;
-}
-nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
-}
-nav a.router-link-active {
-  color: #039be5;
-}
-
-/* items class */
-.items {
-  margin: 0 0 2em 0;
-  list-style-type: none;
-  padding: 0;
-  width: 24em;
-}
-.items li {
-  cursor: pointer;
-  position: relative;
-  left: 0;
-  background-color: #EEE;
-  margin: .5em;
-  padding: .3em 0;
-  height: 1.6em;
-  border-radius: 4px;
-}
-.items li:hover {
-  color: #607D8B;
-  background-color: #DDD;
-  left: .1em;
-}
-.items li.selected:hover {
-  background-color: #BBD8DC;
-  color: white;
-}
-.items .text {
-  position: relative;
-  top: -3px;
-}
-.items {
-  margin: 0 0 2em 0;
-  list-style-type: none;
-  padding: 0;
-  width: 24em;
-}
-.items li {
-  cursor: pointer;
-  position: relative;
-  left: 0;
-  background-color: #EEE;
-  margin: .5em;
-  padding: .3em 0;
-  height: 1.6em;
-  border-radius: 4px;
-}
-.items li:hover {
-  color: #607D8B;
-  background-color: #DDD;
-  left: .1em;
-}
-.items li.selected {
-  background-color: #CFD8DC;
-  color: white;
-}
-
-.items li.selected:hover {
-  background-color: #BBD8DC;
-}
-.items .text {
-  position: relative;
-  top: -3px;
-}
-.items .badge {
-  display: inline-block;
-  font-size: small;
-  color: white;
-  padding: 0.8em 0.7em 0 0.7em;
-  background-color: #607D8B;
-  line-height: 1em;
-  position: relative;
-  left: -1px;
-  top: -4px;
-  height: 1.8em;
-  margin-right: .8em;
-  border-radius: 4px 0 0 4px;
-}
 .logo{
   background-image: url("./vendor/images/logo.png");
   height: 152px;
@@ -225,8 +108,6 @@ nav a.router-link-active {
   font-family: Alef;
 }
 
-
-
 .bodyContainer {
   color:black;
   font-size:14px;
@@ -241,49 +122,37 @@ nav a.router-link-active {
   width:60px;
   height:60px;
   margin-top: 5px;
-  margin-right:-10px;
+  margin-right: -10px;
+}
+
+.icon{
+  -webkit-background-size: contain;
+  background-size: contain;
+  height:100%;
 }
 
 .clockIcon {
   background: url("./vendor/images/clock.png") no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-  height:100%;
 }
 
 .securityIcon{
   background: url("./vendor/images/lock.png") no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-  height:100%;
 }
 
 .piggybankIcon{
   background: url("./vendor/images/pig.png") no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-  height:100%;
 }
 
 .globeButton{
   background: url(./vendor/images/earth.png) no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-  height:100%;
 }
 
 .keyboardIcon{
   background: url(./vendor/images/computer.png) no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-  height:100%;
 }
 
 .puzzleIcon{
   background: url(./vendor/images/puzzle.png) no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-  height:100%;
 }
 
 .sendIcon{
@@ -307,7 +176,7 @@ nav a.router-link-active {
 }
 
 .marginTop{
-  margin-top:13px;
+  margin-top:10px;
 }
 
 .subtitle{
@@ -371,13 +240,40 @@ nav a.router-link-active {
   background:lightsteelblue;
 }
 
+.successFooter {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:123px;
+  width:100%;
+  background:lightsteelblue;
+}
+
+.extendedFooter{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:145px;
+  width:100%;
+  background:lightsteelblue;
+}
+
+.red{
+  color:red;
+}
+
+.green{
+  color:forestgreen;
+}
+
 @media (max-width: 768px) {
+
   body{
     margin:0px;
   }
 
   .bodyContainer{
-    margin-top:20px;
+    margin-top:10px;
   }
 
   #firstBodyContainer{
@@ -391,15 +287,15 @@ nav a.router-link-active {
   #lastBodyContainer{
     margin-top: 20px;
   }
-}
 
+  #lastIconContainer{
+    margin-top:40px;
+    margin-bottom: 100px;
+  }
+}
 
 @media (min-width: 1300px) {
   .bodyContainer{
     font-size:18px;
-  }
-
-  .keyboardIcon{
-    margin-top:10px;
   }
 }
