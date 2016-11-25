@@ -42,7 +42,8 @@ module.exports = webpackMerge(commonConfig, {
     new NormalModuleReplacementPlugin(
       /angular2-hmr/,
       helpers.root('config/modules/angular2-hmr-prod.js')
-    )
+    ),
+    new UglifyJsPlugin({minimize: true})
   ],
   tslint: {
     emitErrors: true,
